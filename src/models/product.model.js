@@ -12,9 +12,7 @@ const productSchema = new mongoose.Schema(
     desc: {
         type:String
         },
-    upload: {
-        type:String
-        }
+    
 })
 
 module.exports = mongoose.model("Product", productSchema);
